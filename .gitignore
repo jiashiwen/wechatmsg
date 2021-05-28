@@ -1,0 +1,53 @@
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+
+# Log file
+*.log
+**/log
+
+# target
+**/target
+
+# example yaml files dir
+**/execyaml
+
+# result or report file
+compare_*
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# go ignore
+**/vendor
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+#idea ignore
+**/.idea
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
